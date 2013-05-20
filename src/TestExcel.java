@@ -14,17 +14,20 @@ public class TestExcel {
 //			System.out.println("El valor de la columna ="+a+"es:" +rowValues.get(a).toString());
 //		}
 		
-			testSetRow();
+			//testSetRow(4,"Ljacino");
+			System.out.println(ExcelOperations.getNumRows("path", "testSheet"));
 		}
 	
-	public static void testSetRow(){
+	public static void testSetRow(int rowIndex,String value){
 		ArrayList<Cell> fila = new ArrayList<Cell>();
-		fila=ExcelOperations.getRow("path","testSheet",4);
+		fila=ExcelOperations.getRow("path","testSheet",rowIndex);
 		Cell celda = fila.get(3);
-		celda.setCellValue("Test");
+		celda.setCellValue(value);
 		ExcelOperations.setCell(fila, "path", "testSheet", celda,3,3);
 		ExcelOperations.getRow("path", "testSheet", 4);
 		
 	}
+	
+	
 
 }
