@@ -195,4 +195,22 @@ public class ExcelOperations {
 		}
 
 	}
+	
+	public static int getNumRows(String path,String sheet){
+		int numRows=0;
+		try {
+			FileInputStream file = new FileInputStream(new File(
+					ConfigurationHelper.getPropiedad(path)));
+			XSSFWorkbook libroExcel = new XSSFWorkbook(file);
+			XSSFSheet hoja = libroExcel.getSheet(ConfigurationHelper
+					.getPropiedad(sheet));
+			numRows= hoja.getLastRowNum();
+			
+		}
+			catch(Exception e){
+				e.printStackTrace();
+			}
+		
+		return numRows;
+	}
 }
