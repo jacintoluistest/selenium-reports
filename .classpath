@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/utils/selenium-java-2.32.0/selenium-2.32.0/selenium-java-2.32.0.jar"/>
+	<classpathentry kind="lib" path="E:/utils/poi-bin-3.9-20121203/poi-3.9/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="E:/utils/poi-bin-3.9-20121203/poi-3.9/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="E:/utils/poi-bin-3.9-20121203/poi-3.9/poi-ooxml-3.9-20121203.jar" sourcepath="C:/Users/Luis M. Jacinto/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9-sources.jar"/>
+	<classpathentry kind="lib" path="E:/utils/poi-bin-3.9-20121203/poi-3.9/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="E:/utils/poi-bin-3.9-20121203/poi-3.9/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="E:/utils/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/utils/xmlbeans-2.6.0/xmlbeans-2.6.0/lib/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="E:/utils/xmlbeans-2.6.0/xmlbeans-2.6.0/lib/xbean.jar"/>
+	<classpathentry kind="lib" path="E:/utils/xmlbeans-2.6.0/xmlbeans-2.6.0/lib/xmlbeans-qname.jar"/>
+	<classpathentry kind="lib" path="E:/utils/xmlbeans-2.6.0/xmlbeans-2.6.0/lib/xmlpublic.jar"/>
+	<classpathentry kind="lib" path="E:/utils/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/utils/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
